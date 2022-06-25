@@ -1,0 +1,78 @@
+:root{
+    --color-bg-primary:#fcDe67;
+    --color-bg-variant:#8e7821;
+    --text-color:#030e12;
+    --color-primary:#ef9273;
+    --color-primary-variant:#fff;
+    --color-small-text:#29738e;
+    --font-main:'Poppins', sans-serif;
+    --container-width-1g:75%;
+    --container-width-mg:86%;
+    --container-width-ms:90%; 
+    --transition:500ms all ease;   
+}
+.sign-up{
+    height: fit-content;
+    background: var(--color-bg-primary);
+}
+.sign-up h2{
+    padding-top: 6rem;
+}
+.form-container{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-up form{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    padding-top: 3rem;
+    color: var(--text-color);
+}
+.sign-up form input{
+    outline: none;
+    border: none;
+    font-size: .9rem;
+    padding: .7rem;
+    color: var(--color-primary-variant);
+    background: var(--color-bg-variant);
+}
+.sign-up form button{
+    width: 6rem;
+    margin-left: 8rem;
+}
+.sign-up form label{
+    color: var(--text-color);
+}
+.form-container p {
+    padding-bottom: 2rem;
+}
+.form-container p a{
+    color: var(--color-primary);
+}
+@media screen and (max-width:1000px){
+    .form-container {
+        width: 60%;
+    }
+    .sign-up form button {
+        
+        margin-left: 5.5rem;
+    }
+}
+@media screen and (max-width:600px){
+    .form-container {
+        width: 80%;
+    }
+    .sign-up form button {
+        
+        margin-left: 5.5rem;
+    }
+}
